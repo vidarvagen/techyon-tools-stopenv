@@ -1,2 +1,2 @@
-module github.com/vidarvagen/techyon-tools-stopenv
+module github.com/vidarvagen/stopenv
 go 1.15
