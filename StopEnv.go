@@ -19,7 +19,7 @@ func main() {
 	flag.StringVar(&function, "function", "", "stop or start")
 	flag.StringVar(&basePath, "path", "", "basepath to habitat")
 	flag.Parse()
-	logfilePath = basePath + "replicas.log"
+	logfilePath = basePath + "replicacount.log"
 	if function == "stop" {
 		openFlags = os.O_RDWR|os.O_CREATE|os.O_TRUNC
 	} else {
